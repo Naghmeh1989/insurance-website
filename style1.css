@@ -1,0 +1,150 @@
+.box{
+    color: ivory;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+   flex-direction:row;
+  
+}
+.box1 a{
+    text-align: center;
+   border-right: white 1px solid;
+   height: 100%;
+
+}
+.box1 a img{
+    height: 80px;
+    background-color: black;
+}
+.box1 a:hover{
+    color:black;
+   background-color:white;
+    justify-content:space-around;
+}
+.box1{ background-color: rgba(223, 19, 19, 0.966);
+     display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 80px;
+   text-align: center;
+}
+.box2{
+    color: ivory;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:5px;
+   
+  
+   
+}
+
+.box2{ background-color: rgb(8, 8, 8);}
+#flexbox{
+         display: flex;
+}
+.box3{
+    color: rgb(7, 7, 6);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+   flex-direction:row;
+  
+   
+}
+.box3 a{
+   border-bottom: 2px solid red;
+   padding-bottom: 5px;
+
+}
+.btn{color: white;
+    background-color: red;
+    padding: 10px;
+}
+
+.box4{
+    color: ivory;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+   flex-direction:row;
+  text-align: center;
+   display: flexbox;
+}
+
+.box4{ background-color: rgb(8, 8, 8);}
+.box5{
+    color: rgb(12, 12, 12);
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+   flex-direction:row;
+   height: 290px;
+}
+
+
+.column {
+  float: left;
+  width: 15%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.box5 h2{
+   border-bottom: 2px solid red;
+   padding-bottom: 5px;
+
+}
+
+.box6{background-color: red;
+    color: ivory;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1px;
+   flex-direction:row;
+  text-align: center;
+   display: flexbox;
+}
+
+.box7{background-color: black;
+    color: rgb(110, 102, 102);
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+   flex-direction:row;
+   height: 680px;
+  
+}
+
+
+.column {
+  float: left;
+  width: 33/33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.box7 a:hover{
+    color:white;
+   
+    
+}
+.box7 a{
+    
+   color: red;
+
+}
+.box7 h2{
+   border-bottom: 2px solid red;
+   padding-bottom: 5px;
+
+}
+
+
